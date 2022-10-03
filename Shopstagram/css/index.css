@@ -446,8 +446,7 @@ input:focus {
   margin-right: 10px;
   color: #969696;
 }
-
-.page-footer__nav a:last-child {
+.page-footer__nav:last-child {
   margin-right: 0;
 }
 
