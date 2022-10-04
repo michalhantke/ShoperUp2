@@ -6,26 +6,23 @@
     .content-wrapper {
         display: flex;
         margin: 0 -15px;
-    }
 
-    .content-wrapper__main,
-    .content-wrapper__aside {
-        padding: 0 15px;
-    }
-    
-    .content-wrapper__main {
-        width: 70%;
-    }
+        &__main {
+            padding: 0 15px;
+            width: 70%;
+        }
 
-    .content-wrapper__aside {
-        display: block;
-        flex: 1;
-    }
+        &__aside {
+            padding: 0 15px;
+            display: block;
+            flex: 1;
+        }
 
-    .content-wrapper__aside-user {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 30px;
+        &__aside-user {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
     }
 }

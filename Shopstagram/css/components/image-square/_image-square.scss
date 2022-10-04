@@ -6,27 +6,28 @@
     height: 56px;
     border-radius: 100%;
     overflow: hidden;
+
+    &--small {
+        width: 32px;
+        height: 32px;
+    }
+
+    &--tiny {
+        width: 24px;
+        height: 24px;
+    }
 }
 
-.image-square--small {
-    width: 32px;
-    height: 32px;
-}
+.image-square {
+    &.has-border {
+        border: 1px solid $color-border;
+    }
 
-.image-square--tiny {
-    width: 24px;
-    height: 24px;
-}
-
-.image-square.has-border {
-    border: 1px solid #dbdbdb;
-}
-
-.image-square.is-active {
-    border: 2px solid #DD2A7C;
-}
-
-.image-square.is-active img {
-    border: 1px solid #ffffff;
-    border-radius: 100%;
+    &.is-active {
+        border: 2px solid $color-secondary;
+            img {
+                border: 1px solid $color-white;
+                border-radius: 100%;
+            }
+    }
 }
