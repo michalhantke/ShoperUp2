@@ -1,0 +1,8 @@
+@mixin square ($width, $heigth: $width) {
+    width: $width;
+    height: $heigth;
+}
+
+@mixin border {
+    border: 1px solid $color-border;   
+}
