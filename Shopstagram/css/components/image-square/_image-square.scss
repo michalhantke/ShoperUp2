@@ -15,7 +15,7 @@
     }
 
     &.has-border {
-        @include border;
+        @include border (1px, solid, $color-border);
     }
 
     &.is-active {

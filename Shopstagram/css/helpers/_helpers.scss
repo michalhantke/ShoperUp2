@@ -3,6 +3,6 @@
     height: $heigth;
 }
 
-@mixin border {
-    border: 1px solid $color-border;   
+@mixin border($size, $type, $color) {
+    border: $size $type $color
 }
