@@ -319,7 +319,7 @@ html, body {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fafafa;
+  background-color: #F5F4D7;
   font-size: 14px;
 }
 
@@ -358,7 +358,7 @@ input:focus {
 
 .search-input {
   min-width: 250px;
-  background: #efefef url(../../images/icons/magnifier.svg) no-repeat 10px center;
+  background: #E0DFB1 url(../../images/icons/magnifier.svg) no-repeat 10px center;
   background-size: 16px;
   padding-left: 34px;
   font-size: 14px;
@@ -416,10 +416,10 @@ input:focus {
   height: 24px;
 }
 .image-square.has-border {
-  border: 1px solid #dbdbdb;
+  border: 1px solid #A5A36C;
 }
 .image-square.is-active {
-  border: 2px solid #dd2a7c;
+  border: 2px solid #951F2B;
 }
 .image-square.is-active img {
   border: 1px solid #ffffff;
@@ -429,15 +429,15 @@ input:focus {
 .page-footer {
   padding: 30px 0;
   font-size: 12px;
-  color: #969696;
+  color: #535233;
 }
 .page-footer__nav {
   margin-right: 10px;
-  color: #969696;
+  color: #535233;
 }
 .page-footer__nav a {
   margin-right: 10px;
-  color: #969696;
+  color: #535233;
 }
 .page-footer__nav:last-child {
   margin-right: 0;
@@ -447,7 +447,7 @@ input:focus {
   margin-bottom: 30px;
   padding: 10px 0;
   background-color: #ffffff;
-  border-bottom: 1px solid #dbdbdb;
+  border-bottom: 1px solid #A5A36C;
 }
 .page-header__wrapper {
   display: flex;
@@ -486,7 +486,7 @@ input:focus {
 .post {
   margin-bottom: 20px;
   background-color: #ffffff;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #A5A36C;
   border-radius: 7px;
 }
 .post:last-child {
@@ -516,13 +516,13 @@ input:focus {
   display: block;
 }
 .post__comments-comment a {
-  color: #969696;
+  color: #535233;
 }
 .post__footer {
   display: flex;
   align-items: center;
   padding: 15px;
-  border-top: 1px solid #efefef;
+  border-top: 1px solid #E0DFB1;
 }
 .post--loader {
   padding: 15px;
@@ -535,7 +535,7 @@ input:focus {
   margin-bottom: 20px;
   padding: 15px 0;
   background-color: #ffffff;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #A5A36C;
   border-radius: 7px;
 }
 .stories-box__list {
@@ -572,7 +572,7 @@ input:focus {
 .suggestion-box__header h2 {
   margin: 0;
   font-size: inherit;
-  color: #969696;
+  color: #535233;
 }
 .suggestion-box__header a {
   color: #000000;
@@ -610,7 +610,7 @@ input:focus {
 .user-details__content p {
   margin: 0;
   font-size: 11px;
-  color: #969696;
+  color: #535233;
 }
 .user-details--big .user-details__content h2, .user-details--big .user-details__content h3 {
   font-size: 13px;
