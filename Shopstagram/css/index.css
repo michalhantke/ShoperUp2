@@ -319,8 +319,8 @@ html, body {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #F5F4D7;
   font-size: 14px;
+  background-image: linear-gradient(to bottom right, #F5F4D7, #535233);
 }
 
 img {
@@ -448,6 +448,10 @@ input:focus {
   padding: 10px 0;
   background-color: #ffffff;
   border-bottom: 1px solid #A5A36C;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow: 5px 5px 10px #951F2B;
 }
 .page-header__wrapper {
   display: flex;
@@ -456,6 +460,12 @@ input:focus {
 }
 .page-header__logo {
   flex-shrink: 0;
+  position: relative;
+}
+.page-header__logo::after {
+  content: "BETA";
+  color: #000000;
+  position: absolute;
 }
 .page-header__logo img {
   display: block;
