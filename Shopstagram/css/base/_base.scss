@@ -9,8 +9,9 @@ html, body {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: $color-body;
+    // background-color: $color-body;
     font-size: 14px;
+    background-image: linear-gradient(to bottom right, $color-body, $color-dark);
 }
 
 img {
